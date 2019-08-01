@@ -81,6 +81,7 @@ public class PageAccessTest {
 
     @AfterMethod
     public void teardown() {
+        //This will shutdown the browser
         SeleniumUtils.waitPlease(2);
         driver.quit();
     }
